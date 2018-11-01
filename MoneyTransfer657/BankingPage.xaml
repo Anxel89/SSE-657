@@ -1,0 +1,38 @@
+﻿<Window x:Class="MoneyTransfer657.BankingPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MoneyTransfer657"
+        mc:Ignorable="d"
+        Title="BankingPage" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="3*"/>
+        </Grid.RowDefinitions>
+        <Label x:Name="bankingMainLabel" Content="Banking" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" FontSize="36" Grid.ColumnSpan="2"/>
+        <Button x:Name="mainMenu2Button" Content="Main Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Height="35" Background="#FF2FD878" FontSize="10" Click="mainMenu2Button_Click" />
+        <Label x:Name="linkedAccountLabel" Content="Linked Accounts" HorizontalAlignment="Center" Margin="0" Grid.Row="1" FontSize="14" VerticalAlignment="Top"/>
+        <Separator HorizontalAlignment="Center" Height="13" Margin="0,17,0,0" Grid.Row="1" VerticalAlignment="Top" Width="111"/>
+        <ListBox x:Name="linkedAccountsListBox" Margin="50" Grid.Row="1"/>
+        <StackPanel x:Name="bankingMenuStackPanel" Grid.Column="1" Margin="99.2,50.2,62.6,50" Grid.Row="1">
+            <Button x:Name="transfertoAppButton" Content="Transfer to Application" Height="44" Margin="10,0"/>
+            <Separator Height="13" Margin="0,0,0.2,0"/>
+            <Button x:Name="transfertoBankButton" Content="Transfer to Your Bank" Height="44" Margin="10,0"/>
+            <Separator Height="13" Margin="0,0,0.2,0"/>
+            <Button x:Name="autoDepositButton" Content="Automatic Deposits" Height="44" Margin="10,0,11,0"/>
+            <Separator Height="13" Margin="0,0,0.2,0"/>
+            <Button x:Name="linkAccountButton" Content="Link Account" Height="44" Margin="10,0"/>
+        </StackPanel>
+        <Label x:Name="bankingOptionsLabel" Content="Banking Options" HorizontalAlignment="Center" Margin="0" Grid.Row="1" FontSize="14" VerticalAlignment="Top" Grid.Column="1"/>
+        <Separator HorizontalAlignment="Center" Height="13" Margin="0,17,0,0" Grid.Row="1" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
+        <Button x:Name="bankingExampleButton" Content="Linked Account Example" Grid.Column="1" HorizontalAlignment="Left" Margin="0.2,0.2,0,0" Grid.Row="1" VerticalAlignment="Top" Width="116" FontSize="10" Background="#FFEBFF00" Click="bankingExampleButton_Click"/>
+
+
+    </Grid>
+</Window>

@@ -1,0 +1,149 @@
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\bin\Debug\MoneyTransfer657.exe.config
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\bin\Debug\MoneyTransfer657.exe
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\bin\Debug\MoneyTransfer657.pdb
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.csprojAssemblyReference.cache
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\LoginScreen.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\MainWindow.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\App.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657_MarkupCompile.cache
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657_MarkupCompile.lref
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\LoginScreen.baml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\MainWindow.baml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.g.resources
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.Properties.Resources.resources
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.csproj.GenerateResource.cache
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.csproj.CoreCompileInputs.cache
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.exe
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.pdb
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\SendReqPage.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\SendReqPage.baml
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\bin\Debug\MoneyTransfer657.exe.config
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\bin\Debug\MoneyTransfer657.exe
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\bin\Debug\MoneyTransfer657.pdb
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.csprojResolveAssemblyReference.cache
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\LoginScreen.g.cs
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\MainWindow.g.cs
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\SendReqPage.g.cs
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\App.g.cs
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657_MarkupCompile.cache
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657_MarkupCompile.lref
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\LoginScreen.baml
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\MainWindow.baml
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\SendReqPage.baml
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.g.resources
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.Properties.Resources.resources
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.csproj.GenerateResource.Cache
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.exe
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.pdb
+C:\Users\anxel\Documents\GitHub\MoneyTransfer657\MoneyTransfer657\bin\Debug\System.Data.SQLite.xml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\bin\Debug\System.Data.SQLite.xml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.csproj.CopyComplete
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\TransHistPage.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\TransHistPage.baml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\BankingPage.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\BankingPage.baml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\bin\Debug\Binance.API.Csharp.Client.dll
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\bin\Debug\Binance.API.Csharp.Client.Domain.dll
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\bin\Debug\Binance.API.Csharp.Client.Models.dll
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\bin\Debug\Newtonsoft.Json.dll
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\bin\Debug\websocket-sharp.dll
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\bin\Debug\Newtonsoft.Json.xml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\InvestPage.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer657\MoneyTransfer657\obj\Debug\InvestPage.baml
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\bin\Debug\MoneyTransfer657.exe.config
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\bin\Debug\MoneyTransfer657.exe
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\bin\Debug\MoneyTransfer657.pdb
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\bin\Debug\Binance.API.Csharp.Client.dll
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\bin\Debug\Binance.API.Csharp.Client.Domain.dll
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\bin\Debug\Binance.API.Csharp.Client.Models.dll
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\bin\Debug\Newtonsoft.Json.dll
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\bin\Debug\websocket-sharp.dll
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\bin\Debug\Newtonsoft.Json.xml
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\bin\Debug\System.Data.SQLite.xml
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.csprojAssemblyReference.cache
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\BankingPage.g.cs
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\InvestPage.g.cs
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\LoginScreen.g.cs
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\MainWindow.g.cs
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\SendReqPage.g.cs
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\TransHistPage.g.cs
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\App.g.cs
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657_MarkupCompile.cache
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657_MarkupCompile.lref
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\BankingPage.baml
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\InvestPage.baml
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\LoginScreen.baml
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\MainWindow.baml
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\SendReqPage.baml
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\TransHistPage.baml
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.g.resources
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.Properties.Resources.resources
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.csproj.GenerateResource.cache
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.csproj.CoreCompileInputs.cache
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.csproj.CopyComplete
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.exe
+C:\Users\erikl\Desktop\MoneyTransfer657\MoneyTransfer657\obj\Debug\MoneyTransfer657.pdb
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\bin\Debug\MoneyTransfer657.exe.config
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\bin\Debug\MoneyTransfer657.exe
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\bin\Debug\MoneyTransfer657.pdb
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\bin\Debug\Binance.API.Csharp.Client.dll
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\bin\Debug\Binance.API.Csharp.Client.Domain.dll
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\bin\Debug\Binance.API.Csharp.Client.Models.dll
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\bin\Debug\Newtonsoft.Json.dll
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\bin\Debug\websocket-sharp.dll
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\bin\Debug\Newtonsoft.Json.xml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\bin\Debug\System.Data.SQLite.xml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\MoneyTransfer657.csprojAssemblyReference.cache
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\BankingPage.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\InvestPage.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\LoginScreen.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\MainWindow.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\SendReqPage.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\TransHistPage.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\App.g.cs
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\MoneyTransfer657_MarkupCompile.cache
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\MoneyTransfer657_MarkupCompile.lref
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\BankingPage.baml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\InvestPage.baml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\LoginScreen.baml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\MainWindow.baml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\SendReqPage.baml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\TransHistPage.baml
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\MoneyTransfer657.g.resources
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\MoneyTransfer657.Properties.Resources.resources
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\MoneyTransfer657.csproj.GenerateResource.cache
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\MoneyTransfer657.csproj.CoreCompileInputs.cache
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\MoneyTransfer657.csproj.CopyComplete
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\MoneyTransfer657.exe
+C:\Users\erikl\Google Drive\SSE Fall 2018\SEE 657\SSE 657\Project 1_\MoneyTransfer\MoneyTransfer657\obj\Debug\MoneyTransfer657.pdb
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\bin\Debug\MoneyTransfer657.exe.config
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\bin\Debug\MoneyTransfer657.exe
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\bin\Debug\MoneyTransfer657.pdb
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\bin\Debug\Binance.API.Csharp.Client.dll
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\bin\Debug\Binance.API.Csharp.Client.Domain.dll
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\bin\Debug\Binance.API.Csharp.Client.Models.dll
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\bin\Debug\Newtonsoft.Json.dll
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\bin\Debug\websocket-sharp.dll
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\bin\Debug\Newtonsoft.Json.xml
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\bin\Debug\System.Data.SQLite.xml
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\MoneyTransfer657.csprojResolveAssemblyReference.cache
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\BankingPage.g.cs
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\InvestPage.g.cs
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\LoginScreen.g.cs
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\MainWindow.g.cs
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\SendReqPage.g.cs
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\TransHistPage.g.cs
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\App.g.cs
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\MoneyTransfer657_MarkupCompile.cache
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\MoneyTransfer657_MarkupCompile.lref
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\BankingPage.baml
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\InvestPage.baml
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\LoginScreen.baml
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\MainWindow.baml
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\SendReqPage.baml
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\TransHistPage.baml
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\MoneyTransfer657.g.resources
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\MoneyTransfer657.Properties.Resources.resources
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\MoneyTransfer657.csproj.GenerateResource.Cache
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\MoneyTransfer657.exe
+C:\Users\anxel\Documents\GitHub\MoneyApp\MoneyTransfer657\obj\Debug\MoneyTransfer657.pdb
