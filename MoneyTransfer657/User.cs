@@ -7,7 +7,7 @@ using System.Data.SQLite;
 
 namespace MoneyTransfer657
 {
-    class User
+    public class  User
     {
         string username;
         decimal balance;
@@ -16,7 +16,7 @@ namespace MoneyTransfer657
         decimal eth;
         decimal usd;
         string id;
-       public string[,] banking_accounts = new string[3, 2];
+       public string[,] banking_accounts = new string[5, 2];
         public decimal Btc
         
         
@@ -42,6 +42,11 @@ namespace MoneyTransfer657
         public decimal Balance
         {
             get { return balance; }
+        }
+        public string Username
+        {
+            get { return username; }
+            
         }
         public User()
         {
@@ -89,8 +94,8 @@ namespace MoneyTransfer657
                 int j = 1;
                 while(reader3.Read())
                 {
-                    banking_accounts[i, 0] = reader3["name"].ToString();
-                    banking_accounts[i, j] = reader3["account number"].ToString();
+                    banking_accounts[i, 0] = reader3["Name"].ToString();
+                    banking_accounts[i, j] = reader3["Accountnumber"].ToString();
                     i++;
                 }
             }
@@ -179,6 +184,54 @@ namespace MoneyTransfer657
 
             }
         }
+
+        public void Add_Bank_Account_to_DB(string name, string number)
+        {
+            SQLiteConnection sqlCon = new SQLiteConnection("Data Source = MyDatabase.sqlite; Version=3;");
+            try
+            {
+                if (sqlCon.State == System.Data.ConnectionState.Closed)
+                    sqlCon.Open();
+
+                string query = "INSERT INTO bankaccount VALUES(" + id +",'" + name +"'," + number + ");";
+                SQLiteCommand sqlCmd = new SQLiteCommand(query, sqlCon);
+                sqlCmd.ExecuteNonQuery();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                sqlCon.Close();
+
+            }
+        }
+
+        public void Add_Transaction(string sender, string reciever, string currency, string amount, string description)
+        {
+            SQLiteConnection sqlCon = new SQLiteConnection("Data Source = MyDatabase.sqlite; Version=3;");
+            try
+            {
+                if (sqlCon.State == System.Data.ConnectionState.Closed)
+                    sqlCon.Open();
+                
+                string query = "INSERT INTO tran (Sender,Reciever,Description,Amount,Currency) VALUES('" + sender + "','" + reciever + "','" + description + "'," + amount + ",'" + currency + "');";
+                SQLiteCommand sqlCmd = new SQLiteCommand(query, sqlCon);
+                sqlCmd.ExecuteNonQuery();
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                sqlCon.Close();
+            }
+        }
+    
 
     }// end of class
 }// end of namespace

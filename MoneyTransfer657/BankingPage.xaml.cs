@@ -32,17 +32,18 @@ namespace MoneyTransfer657
             td_el.Start();
             td_el.Join();
             user = EL;
-            linkedAccountsListBox.Items.Add(user.banking_accounts[0, 0] + " " + user.banking_accounts[0, 1]);
-        }
+            int i = 0;
+            while(user.banking_accounts[i,0] != null)
+            {
+                linkedAccountsListBox.Items.Add(user.banking_accounts[i, 0] + " " + user.banking_accounts[i, 1]);
+                Banking_ComboBox.Items.Add(user.banking_accounts[i, 0] + " " + user.banking_accounts[i, 1]);
+                i++;
+            }
+            Usd_bal.Content = user.Usd.ToString("#,####.##");
 
-        private void bankingExampleButton_Click(object sender, RoutedEventArgs e)
-        {
-            int c = 1234;
-            linkedAccountsListBox.Items.Add("BB&T Checking  ***" + c);
-            
-        }
+        }        
 
-        private void mainMenu2Button_Click(object sender, RoutedEventArgs e)
+        private void ReturnButton_Click(object sender, RoutedEventArgs e)
         {
             MainWindow dashboard = new MainWindow();
             dashboard.Show();
@@ -50,15 +51,85 @@ namespace MoneyTransfer657
         }
         private void TransfertoAppButton_Click(object sender, RoutedEventArgs e)
         {
+            decimal transfer_amount;
+            bool isNumeric = decimal.TryParse(transferamount.Text, out transfer_amount);
+            if (isNumeric == false)
+            {
+                MessageBox.Show("Only enter numbers for amount to transfer");
+                return;
+            }
+            Thread transfer = new Thread(() =>
+            {
+                user.Usd = user.Usd + transfer_amount;
+                user.Update_Database();
+            });
+            transfer.Start();
+            transfer.Join();
+            UpdateBankingAccounts();
+
 
         }
         private void TransfertoBankButton_Click(object sender, RoutedEventArgs e)
         {
-
+            decimal transfer_amount;
+            bool isNumeric = decimal.TryParse(transferamount.Text, out transfer_amount);
+            if (isNumeric == false)
+            {
+                MessageBox.Show("Only enter numbers for amount to transfer");
+                return;
+            }
+            Thread transfer = new Thread(() =>
+            {
+                user.Usd = user.Usd - transfer_amount;
+                user.Update_Database();
+            });
+            transfer.Start();
+            transfer.Join();
+            UpdateBankingAccounts();
         }
         private void LinkAccountButton_Click(object sender, RoutedEventArgs e)
         {
+            int i = 0;
+            while(true) {
+                if (user.banking_accounts[i, 0] == null)
+                {
+                    
+                    int transfer_amount;
+                    bool isNumeric = int.TryParse(bankaccount_number.Text, out transfer_amount);
+                    if (isNumeric == false)
+                    {
+                        MessageBox.Show("Only enter numbers for bank account number");
+                        return;
+                    }
+                   
+                 
+                    user.banking_accounts[i, 0] = accounttextbox.Text;
+                    user.banking_accounts[i, 1] = bankaccount_number.Text;
+                    user.Add_Bank_Account_to_DB(accounttextbox.Text, bankaccount_number.Text);
+                    user.Update_Database();                    
+                    UpdateBankingAccounts();
+                    break;
+                    
+                    
+                    
+                }
+                i++;
+            }
+            
+        }
 
+        private void UpdateBankingAccounts()
+        {
+            linkedAccountsListBox.Items.Clear();
+            Banking_ComboBox.Items.Clear();
+            int i = 0;
+            while (user.banking_accounts[i, 0] != null)
+            {
+                linkedAccountsListBox.Items.Add(user.banking_accounts[i, 0] + " " + user.banking_accounts[i, 1]);                
+                Banking_ComboBox.Items.Add(user.banking_accounts[i, 0] + " " + user.banking_accounts[i, 1]);
+                i++;
+            }
+            Usd_bal.Content = user.Usd.ToString("#,####.##");
         }
 
     }

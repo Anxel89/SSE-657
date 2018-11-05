@@ -39,13 +39,10 @@
                 </TransformGroup>
             </Separator.RenderTransform>
         </Separator>
-        <ListBox x:Name="sentRecListBox" Margin="50,70,50,20" Grid.Row="1"/>
-        <ListBox x:Name="buySoldListBox" Margin="50,70,50,20" Grid.Row="1" Grid.Column="1"/>
-        <TextBox x:Name="sentRecivedTextBox" HorizontalAlignment="Left" Height="18" Margin="50,47,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="200" Opacity="0.5"/>
-        <Button x:Name="sentRecSearchButton" Content="Search" HorizontalAlignment="Left" Margin="272,46,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="sentRecSearchButton_Click"/>
-        <Button x:Name="TransEXData" Content="Load Example Data" Grid.Column="1" HorizontalAlignment="Left" Margin="269.2,10,0,0" VerticalAlignment="Top" Width="118" Background="#FFEBFF00" Height="34" Click="TransEXData_Click"/>
-        <TextBox x:Name="buySellTextBox" HorizontalAlignment="Left" Height="18" Margin="47.2,47,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="200" Opacity="0.5" Grid.Column="1"/>
-        <Button x:Name="buySellSearchButton" Content="Search" HorizontalAlignment="Left" Margin="269.2,46,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" Click="sentRecSearchButton_Click" Grid.Column="1"/>
+        <ListBox x:Name="sentRecListBox" Margin="50,36,50,20" Grid.Row="1"/>
+
+        <ListBox x:Name="buySoldListBox" Margin="50,36,50,20" Grid.Row="1" Grid.Column="1"/>
+
 
     </Grid>
 </Window>

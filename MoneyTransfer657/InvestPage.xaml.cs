@@ -38,7 +38,7 @@ namespace MoneyTransfer657
             user.Update_Database();
             this.Close();
         }
-        //done
+        
         private void BuyCoinButton_Click(object sender, RoutedEventArgs e)
         {
             decimal amount_to_buy;
@@ -59,6 +59,8 @@ namespace MoneyTransfer657
                 Thread buy = new Thread(() =>
                 {
                     user.Buy_BTC(amount_to_buy);
+                    user.Add_Transaction("global",user.Username, "BTC", amount_to_buy.ToString(), "buy crypto");
+
                 });
                 buy.Start();
                 buy.Join();
@@ -76,6 +78,7 @@ namespace MoneyTransfer657
                 Thread buy = new Thread(() =>
                 {
                     user.Buy_ETH(amount_to_buy);
+                    user.Add_Transaction("global", user.Username, "ETH", amount_to_buy.ToString(), "buy crypto");
 
                 });
                 buy.Start();
@@ -93,6 +96,7 @@ namespace MoneyTransfer657
                 Thread buy = new Thread(() =>
                 {
                     user.Buy_XRP(amount_to_buy);
+                    user.Add_Transaction("global", user.Username, "XRP", amount_to_buy.ToString(), "buy crypto");
                 });
                 buy.Start();
                 buy.Join();
@@ -126,6 +130,7 @@ namespace MoneyTransfer657
                 Thread sell = new Thread(() =>
                 {
                     user.Sell_BTC(amount_to_sell);
+                    user.Add_Transaction(user.Username, "global", "BTC", amount_to_sell.ToString(), "sell crypto");
                 });
                 sell.Start();
                 sell.Join();
@@ -141,6 +146,7 @@ namespace MoneyTransfer657
                 Thread sell = new Thread(() =>
                 {
                     user.Sell_ETH(amount_to_sell);
+                    user.Add_Transaction(user.Username,"global", "ETH", amount_to_sell.ToString(), "sell crypto");
                 });
                 sell.Start();
                 sell.Join();
@@ -155,6 +161,7 @@ namespace MoneyTransfer657
                 Thread sell = new Thread(() =>
                 {
                     user.Sell_XRP(amount_to_sell);
+                    user.Add_Transaction(user.Username, "global", "XRP", amount_to_sell.ToString(), "sell crypto");
                 });
                 sell.Start();
                 sell.Join();

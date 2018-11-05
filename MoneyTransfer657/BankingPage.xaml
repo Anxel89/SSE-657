@@ -16,7 +16,7 @@
             <RowDefinition Height="3*"/>
         </Grid.RowDefinitions>
         <Label x:Name="bankingMainLabel" Content="Banking" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Center" FontSize="36" Grid.ColumnSpan="2"/>
-        <Button x:Name="mainMenu2Button" Content="Main Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Height="35" Background="#FF2FD878" FontSize="10" Click="mainMenu2Button_Click" />
+        <Button x:Name="mainMenu2Button" Content="Main Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Height="35" Background="#FF2FD878" FontSize="10" Click="ReturnButton_Click" />
         <Label x:Name="linkedAccountLabel" Content="Linked Accounts" HorizontalAlignment="Center" Margin="76,0,78,0" Grid.Row="1" FontSize="14" VerticalAlignment="Top"/>
         <Separator HorizontalAlignment="Center" Height="13" Margin="76,17,78,0" Grid.Row="1" VerticalAlignment="Top" Width="110"/>
         <ListBox x:Name="linkedAccountsListBox" Margin="50" Grid.Row="1"/>
@@ -31,12 +31,14 @@
         <Separator HorizontalAlignment="Center" Height="13" Margin="362,17,55,0" Grid.Row="1" VerticalAlignment="Top" Width="111" Grid.Column="1"/>
         <Label Name ="Link" Content="Transfer" Grid.Column="1" HorizontalAlignment="Left" Margin="33,0,0,0" Grid.Row="1" VerticalAlignment="Top" Height="37" Width="113" FontSize= "14" RenderTransformOrigin="0.195,-0.595"/>
         <Label Name="Transfer" Content="Link" Grid.Column="1" HorizontalAlignment="Center" Margin="26,139,389,0" Grid.Row="1" VerticalAlignment="Top" Width="113"/>
-        <ComboBox Grid.Column="1" HorizontalAlignment="Left" Margin="26,37,0,0" Grid.Row="1" VerticalAlignment="Top" Width="129"/>
-        <TextBox x:Name="transferamount" Grid.Column="1" HorizontalAlignment="Right" Height="23" Margin="0,64,373,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="129" Grid.Row="1"/>
-        <TextBox x:Name="accounttextbox" Grid.Column="1" HorizontalAlignment="Right" Height="23" Margin="0,201,380,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="122" Grid.Row="1"/>
-        <TextBox x:Name="transferamount_Copy" Grid.Column="1" HorizontalAlignment="Right" Height="23" Margin="0,260,382,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+        <ComboBox Name ="Banking_ComboBox" Grid.Column="1" HorizontalAlignment="Right" Margin="0,37,384,0" Grid.Row="1" VerticalAlignment="Top" Width="118"/>
+        <TextBox x:Name="transferamount" Grid.Column="1" HorizontalAlignment="Right" Height="23" Margin="0,64,384,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="118" Grid.Row="1"/>
+        <TextBox x:Name="accounttextbox" Grid.Column="1" HorizontalAlignment="Right" Height="23" Margin="0,201,384,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
+        <TextBox x:Name="bankaccount_number" Grid.Column="1" HorizontalAlignment="Right" Height="23" Margin="0,260,384,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Row="1"/>
         <Label Content="Name:" Grid.Column="1" HorizontalAlignment="Left" Margin="26,170,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.636,0.154"/>
         <Label Content="Account Number:" Grid.Column="1" HorizontalAlignment="Left" Margin="26,229,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Content="USD Balance:" Grid.Column="1" HorizontalAlignment="Left" Margin="251,255,0,0" Grid.Row="1" VerticalAlignment="Top"/>
+        <Label Name="Usd_bal" Content="Label" Grid.Column="1" HorizontalAlignment="Left" Margin="340,255,0,0" Grid.Row="1" VerticalAlignment="Top"/>
 
 
     </Grid>

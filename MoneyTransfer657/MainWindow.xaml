@@ -18,12 +18,11 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="accountsummeryLabel" Content="$Label" Grid.Column="1" HorizontalAlignment="Center" Margin="75.2,41,74.8,41" VerticalAlignment="Center" FontSize="36" Grid.ColumnSpan="2"/>
-        <Label x:Name="accountbaltxtLabel" Content="Account Balance" Grid.Column="1" HorizontalAlignment="Center" Margin="69.2,0,68.8,0" VerticalAlignment="Bottom" FontSize="16" Grid.ColumnSpan="2"/>
-        <Button x:Name="sendReqMenuButton" Content="Send/Request Currency " Margin="150,10,50,0" Grid.Row="1" VerticalAlignment="Top" Height="120" Background="White" Grid.ColumnSpan="2" Click="sendReqMenuButton_Click"/>
+        <Button x:Name="sendReqMenuButton" Content="Send Currency " Margin="150,10,50,0" Grid.Row="1" VerticalAlignment="Top" Height="120" Background="White" Grid.ColumnSpan="2" Click="sendReqMenuButton_Click"/>
         <Button x:Name="investMenuButton" Content="Invest" Margin="50,0,150,10" Grid.Row="1" Background="White" Grid.Column="2" Height="120" VerticalAlignment="Bottom" Grid.ColumnSpan="2" Click="investMenuButton_Click"/>
         <Button x:Name="transHistMenuButton" Content="Transaction History" Margin="150,10,50,0" Grid.Row="2" VerticalAlignment="Top" Height="120" Background="White" Grid.ColumnSpan="2" Click="transHistMenuButton_Click"/>
         <Button x:Name="bankingMenuButton" Content="Banking" Margin="50,10,150,0" Grid.Row="2" VerticalAlignment="Top" Height="120" Background="White" Grid.Column="2" Grid.ColumnSpan="2" Click="bankingMenuButton_Click"/>
+        <Label Content="Welcome" Grid.Column="1" HorizontalAlignment="Left" Margin="99,61,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2" Height="64" Width="236" FontSize="48"/>
 
     </Grid>
 </Window>

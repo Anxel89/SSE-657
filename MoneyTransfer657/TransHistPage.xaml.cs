@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SQLite;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -22,6 +23,7 @@ namespace MoneyTransfer657
         public TransHistPage()
         {
             InitializeComponent();
+            Update_Transcation();
         }
 
         private void mainMenu1Button_Click(object sender, RoutedEventArgs e)
@@ -31,34 +33,49 @@ namespace MoneyTransfer657
             this.Close();
         }
 
-        private void sentRecSearchButton_Click(object sender, RoutedEventArgs e)
+        private void Update_Transcation()
         {
-          
-            /*listBox1.ClearSelected();
-
-            int index = listBox1.FindString(textBox1.Text);
-
-            if (index < 0)
+            SQLiteConnection sqlCon = new SQLiteConnection("Data Source = MyDatabase.sqlite; Version=3;");
+            try
             {
-                MessageBox.Show("Item not found.");
-                textBox1.Text = String.Empty;
+                if (sqlCon.State == System.Data.ConnectionState.Closed)
+                    sqlCon.Open();
+
+                string query = "SELECT * FROM tran";
+                SQLiteCommand sqlCmd = new SQLiteCommand(query, sqlCon);
+                SQLiteDataReader reader = sqlCmd.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    if (reader["Sender"].ToString() == "global")
+                    {
+                        buySoldListBox.Items.Add("+" + reader["Amount"].ToString() + " " + reader["Currency"].ToString());
+                    }
+
+                    else if(reader["Reciever"].ToString() == "global")
+                    {
+                        buySoldListBox.Items.Add("-" + reader["Amount"].ToString() + " " + reader["Currency"].ToString());
+                    }
+                    else
+                    {
+                        sentRecListBox.Items.Add(reader["Reciever"] + " " + reader["Amount"] + " " + reader["Currency"] + " " + reader["Description"]);
+                    }
+                }
+                
             }
-            else
+
+            catch (Exception ex)
             {
-                listBox1.SelectedIndex = index;
-            }*/
-        }
+                Console.WriteLine(ex.Message);
+            }
+            finally
+            {
+                sqlCon.Close();
 
-        private void TransEXData_Click(object sender, RoutedEventArgs e)
-        {
-            int a = 400, b=100;
-            decimal aa = 1.0058965M, bb = 600.2546M;
-
-            sentRecListBox.Items.Add("Erik Lomas                +" + a);
-            sentRecListBox.Items.Add("John Smith                -" + b);
-
-            buySoldListBox.Items.Add("BTC                       +" + aa);
-            buySoldListBox.Items.Add("Ripple                    +" + bb);
+            }
         }
     }
-}
+
+
+ }
+

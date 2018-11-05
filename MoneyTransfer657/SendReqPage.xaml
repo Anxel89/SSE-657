@@ -16,21 +16,30 @@
             <ColumnDefinition/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="accountsummeryLabel" Content="$Label" HorizontalAlignment="Center" Margin="0,70,0,85" VerticalAlignment="Center" FontSize="36"/>
-        <Label x:Name="accountbaltxtLabel" Content="Account Balance" HorizontalAlignment="Center" Margin="0,0,0,150" VerticalAlignment="Bottom" FontSize="16"/>
-        <TextBox x:Name="contactSearchTextBox" Grid.Column="2" HorizontalAlignment="Left" Height="23" Margin="10.2,40,0,0" TextWrapping="Wrap" Text="Search" VerticalAlignment="Top" Width="245" Opacity="0.5"/>
-        <Label x:Name="contactListLabel" Content="Contacts" Grid.Column="2" HorizontalAlignment="Left" Margin="10.2,9,0,0" VerticalAlignment="Top" Width="245"/>
-        <StackPanel Grid.Column="2" HorizontalAlignment="Left" Height="334" Margin="10.2,76,0,0" VerticalAlignment="Top" Width="245" Background="#FFF1F1F1" Grid.RowSpan="2">
-            <Label x:Name="contactex3Label" Content="Erik Lomas" Margin="0,0,-0.2,0"/>
-            <Label x:Name="contactex2Label" Content="Jane Doe"/>
-            <Label x:Name="contactex1Label" Content="John Smith"/>
-        </StackPanel>
-        <Label x:Name="recentTransSRLabel" Content="Most Recent Transactions" HorizontalAlignment="Center" Margin="0,174,0,0" VerticalAlignment="Top"/>
-        <StackPanel HorizontalAlignment="Left" Height="190" Margin="10,10.4,0,0" Grid.Row="1" VerticalAlignment="Top" Width="245" Background="#FFF1F1F1">
-            <Label Content="John Smith: Electric bill -$60"/>
-            <Label Content="Jane Doe: Food +$30"/>
-        </StackPanel>
-        <Button x:Name="mainMenuButton" Content="Main Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Height="35" Background="#FF2FD878" FontSize="10" Click="mainMenuButton_Click"/>
-
+        <Label x:Name="UsdBalance" Content="USD Balance:" HorizontalAlignment="Center" Margin="10,86,10,70" VerticalAlignment="Center" FontSize="36" Width="244"/>
+        <Label x:Name="accountbaltxtLabel" Content="Account Balance" HorizontalAlignment="Center" Margin="68,0,216,124" VerticalAlignment="Bottom" FontSize="26" Grid.ColumnSpan="2" Height="57" Width="244"/>
+        <Button x:Name="mainMenuButton" Content="Main Menu" HorizontalAlignment="Left" VerticalAlignment="Top" Width="64" Height="35" Background="#FF2FD878" FontSize="10" Click="ReturnButton_Click"/>
+        <Label x:Name="btc_bal_label" Content="BTC Balance:" HorizontalAlignment="Center" Margin="10,140,10,16" VerticalAlignment="Center" FontSize="36" Width="244"/>
+        <Label x:Name="eth_bal_label" Content="ETH Balance:" HorizontalAlignment="Center" Margin="10,204,10,152" VerticalAlignment="Center" FontSize="36" Grid.RowSpan="2" Width="244" Height="64"/>
+        <Label x:Name="xrp_bal_label" Content="XRP Balance:" HorizontalAlignment="Center" Margin="10,63,10,81" VerticalAlignment="Center" FontSize="36" Grid.Row="1" Width="244" Height="66"/>
+        <Label x:Name="usd_bal" Content="1" HorizontalAlignment="Center" Margin="237,86,132,70" VerticalAlignment="Center" FontSize="36" Width="159" Grid.ColumnSpan="2"/>
+        <Label x:Name="btc_bal" Content="2" HorizontalAlignment="Center" Margin="237,140,132,16" VerticalAlignment="Center" FontSize="36" Width="159" Grid.ColumnSpan="2"/>
+        <Label x:Name="eth_bal" Content="3" HorizontalAlignment="Center" Margin="237,204,132,152" VerticalAlignment="Center" FontSize="36" Width="159" Grid.ColumnSpan="2" Grid.RowSpan="2" Height="64"/>
+        <Label x:Name="xrp_bal" Content="4" HorizontalAlignment="Center" Margin="237,63,132,81" VerticalAlignment="Center" FontSize="36" Width="159" Grid.ColumnSpan="2" Grid.Row="1" Height="66"/>
+        <Label x:Name="sendmoney" Content="Send Money" HorizontalAlignment="Center" Margin="211,0,73,124" VerticalAlignment="Bottom" FontSize="26" Grid.ColumnSpan="2" Height="57" Width="244" Grid.Column="1"/>
+        <ComboBox Name="CoinBox" Grid.Column="2" HorizontalAlignment="Left" Margin="0,146,0,0" VerticalAlignment="Top" Width="217" Height="48">
+            <ComboBoxItem Content="USD" HorizontalAlignment="Left" Width="80"/>
+            <ComboBoxItem Content="BTC" HorizontalAlignment="Left" Width="80"/>
+            <ComboBoxItem Content="ETH" HorizontalAlignment="Left" Width="80"/>
+            <ComboBoxItem Content="XRP" HorizontalAlignment="Left" Width="80"/>
+        </ComboBox>
+        <TextBox Name="AmountBox" FontSize="20" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="0,4,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="217" Grid.Row="1"/>
+        <Label x:Name="Send_money_label" Content="Recipient " HorizontalAlignment="Center" Margin="141,0,10,64" VerticalAlignment="Bottom" FontSize="26" Height="57" Width="113" Grid.Column="1"/>
+        <Label x:Name="Send_money_label_Copy" Content="Amount" HorizontalAlignment="Center" Margin="142,0,10,154" VerticalAlignment="Bottom" FontSize="26" Height="58" Width="112" Grid.Column="1" Grid.RowSpan="2"/>
+        <Label x:Name="Send_money_label_Copy1" Content="Currency" HorizontalAlignment="Center" Margin="142,0,9,16" VerticalAlignment="Bottom" FontSize="26" Height="48" Width="113" Grid.Column="1" RenderTransformOrigin="0.504,0.737"/>
+        <Button Name="SendButton" Content="Send" Grid.Column="2" HorizontalAlignment="Left" Margin="0,107,0,0" Grid.Row="1" VerticalAlignment="Top" Width="180" Height="40" FontSize="20" Click="SendButton_Click"/>
+        <TextBox x:Name="RecipientText" FontSize="20" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="0,93,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="217"/>
+        <TextBox x:Name="descrip_box" FontSize="20" Grid.Column="2" HorizontalAlignment="Left" Height="44" Margin="0,53,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="217" Grid.Row="1"/>
+        <Label x:Name="description" Content="Description" HorizontalAlignment="Center" Margin="108,0,9,99" VerticalAlignment="Bottom" FontSize="26" Height="58" Width="147" Grid.Column="1" Grid.Row="1"/>
     </Grid>
 </Window>

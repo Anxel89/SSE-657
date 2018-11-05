@@ -12,7 +12,7 @@ using System.ComponentModel;
 
 namespace MoneyTransfer657
 {
-    class Crypto
+    public class Crypto
     {
         long[] supply_arr = { 17299000, 39870907279, 102300268 };
         string name;
