@@ -16,10 +16,28 @@ namespace MoneyTransfer657
         decimal eth;
         decimal usd;
         string id;
+       public string[,] banking_accounts = new string[3, 2];
         public decimal Btc
+        
+        
         {
-            get { return balance; }
+            get { return btc; }
             set { btc = value; }
+        }
+        public decimal Eth
+        {
+            get { return eth; }
+            set { eth = value; }
+        }
+        public decimal Xrp
+        {
+            get { return xrp; }
+            set { xrp = value; }
+        }
+        public decimal Usd
+        {
+            get { return usd; }
+            set { usd = value; }
         }
         public decimal Balance
         {
@@ -63,6 +81,18 @@ namespace MoneyTransfer657
                     btc = Convert.ToDecimal(reader2["BTC"]);
                 }
 
+
+                string query3 = "SELECT * FROM bankaccount WHERE ID='" + id + "'";
+                SQLiteCommand sqlCmd3 = new SQLiteCommand(query3, sqlCon);
+                SQLiteDataReader reader3 = sqlCmd3.ExecuteReader();
+                int i = 0;
+                int j = 1;
+                while(reader3.Read())
+                {
+                    banking_accounts[i, 0] = reader3["name"].ToString();
+                    banking_accounts[i, j] = reader3["account number"].ToString();
+                    i++;
+                }
             }
             catch (Exception ex)
             {

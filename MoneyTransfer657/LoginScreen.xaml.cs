@@ -70,9 +70,7 @@ namespace MoneyTransfer657
         {
             MainWindow dashboard = new MainWindow();
             dashboard.Show();
-            this.Close();
-
-
+            this.Close();    
 
 
 
